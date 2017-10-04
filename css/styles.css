@@ -1,0 +1,139 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+	background: #efe9e4;
+	border: 1px solid #999;
+	border-right: 3px;
+	height: 100%;
+	line-height: 35px;
+	padding: 10px 10px 30px 10px;
+	text-align: left;
+	position: relative;
+}
+
+h1 {
+	color: #19a0d8;
+	text-align: center;
+	font-style: italic;
+}
+
+h3 {
+	color: #19a0d8;
+	text-align: center;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+
+#search-text {
+	width: 75%;
+}
+
+#flickr-btn {
+	width: 40%;
+}
+
+#flickr-images {
+	height: 300px;
+	overflow: scroll;
+	list-style: none;
+}
+
+.list {
+	color: #e85113;
+}
+
+#map {
+	height: 100%;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+input {
+	margin-left: 10px
+}
+
+@media screen and (min-width: 1px) and (max-width: 500px) {
+	h1{
+		font-size: 16px;
+	}
+
+	.list {
+		font-size: 12px;
+	}
+
+	#container {
+		width: 0px;
+	}
+
+	#map {
+		width: 100%;
+		height: 95%;
+	}
+
+	img {
+		width: 150px;
+	}
+
+	.visible-xs {
+		background: #efe9e4;
+		width: 100%;
+		height: 5%;
+	}
+}
+
+@media screen and (min-width: 501px) and (max-width: 767px) {
+	h1{
+		font-size: 20px;
+	}
+
+	.list {
+		font-size: 16px;
+	}
+
+	#container {
+		width: 250px;
+	}
+
+	#map {
+		width: 100%;
+		height: 95%;
+	}
+
+	img {
+		width: 250px;
+	}
+
+	.visible-xs {
+		background: #efe9e4;
+		width: 100%;
+		height: 5%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	h1{
+		font-size: 22px;
+	}
+
+	.list {
+		font-size: 16px;
+	}
+
+	#container {
+		width: 330px;
+	}
+
+	#map {
+		left: 320px;
+	}
+
+	img {
+		width: 300px;
+	}
+}
