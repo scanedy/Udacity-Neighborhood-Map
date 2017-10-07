@@ -1,4 +1,4 @@
-// Google Maps Styles
+// Google Maps Styles and Landmark Data
 
 var styles = [
 	{ featureType: 'water',
@@ -23,9 +23,6 @@ var styles = [
         stylers: [ { color: '#efe9e4' }, { lightness: -25 }]}
 ];
 
-var googleMap;
-var infoWindow;
-var markers = [];
 var landmarks = [
 	{
 		name: 'Texas State Capitol',
